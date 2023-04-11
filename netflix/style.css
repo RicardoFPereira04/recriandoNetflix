@@ -180,8 +180,54 @@ img{
     top: 45px;
     left: 100px;
 }
+.faq{
+    width: 100%;
 
-.footer .form-cpa{
+}
+
+.faq h1{
+    text-align: center;
+}
+
+.faq-list{
+    margin: 5px auto;
+    max-width: 815px;
+    font-size: 26px;
+
+}
+
+.faq-question{
+    background: #303030;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-bottom: 1px;
+
+
+}
+
+.faq-question::after{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url("fechar.svg") no-repeat center center;
+    transform: rotate(45deg);
+}
+
+.faq-answer{
+    background: #303030;
+
+}
+
+.faq-answer > div{
+    padding: 30px;
+}
+
+.footer .form-cta{
     margin-top: 0;
 }
 
